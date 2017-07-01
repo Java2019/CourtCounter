@@ -27,25 +27,29 @@
                 android:text="0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:textSize="80sp"/>
         <Button
                 android:id="@+id/b2_Points_A"
                 android:text="+2 Points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:onClick="onClick"/>
         <Button
                 android:id="@+id/b3_Points_A"
                 android:text="+3 Points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:onClick="onClick"/>
         <Button
                 android:id="@+id/b1_Points_A"
                 android:text="FREE THROW"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:onClick="onClick"/>
     </LinearLayout>
     <TextView
             android:layout_width="1dp"
@@ -69,25 +73,29 @@
                 android:text="0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textAlignment="center"/>
+                android:textAlignment="center"
+                android:textSize="80sp"/>
         <Button
                 android:id="@+id/b2_Points_B"
                 android:text="+2 Points"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:onClick="onClick"/>
         <Button
                 android:id="@+id/b3_Points_B"
                 android:text="+3 Points"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:onClick="onClick"/>
         <Button
                 android:id="@+id/b1_Points_B"
                 android:text="FREE THROW"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:textSize="15sp"/>
+                android:textSize="15sp"
+                android:onClick="onClick"/>
     </LinearLayout>
 </LinearLayout>
     <Button
@@ -96,6 +104,6 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="32dp"
-            android:onClick="resetScore"
-            android:text="Reset" />
+            android:onClick="onClick"
+            android:text="Reset"/>
 </RelativeLayout>
