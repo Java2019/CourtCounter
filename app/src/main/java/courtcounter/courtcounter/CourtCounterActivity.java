@@ -16,8 +16,8 @@ public class CourtCounterActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_court_counter);
 
-        displayA(0);
-        displayB(0);
+        displayA(Score_A);
+        displayB(Score_B);
 
     }
 
