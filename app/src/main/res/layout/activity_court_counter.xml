@@ -29,19 +29,19 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"/>
         <Button
-                android:id="@+id/b2PointsLeft"
+                android:id="@+id/b2_Points_A"
                 android:text="+2 Points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"/>
         <Button
-                android:id="@+id/b3PointsLeft"
+                android:id="@+id/b3_Points_A"
                 android:text="+3 Points"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"/>
         <Button
-                android:id="@+id/b1PointsLeft"
+                android:id="@+id/b1_Points_A"
                 android:text="FREE THROW"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -71,19 +71,19 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"/>
         <Button
-                android:id="@+id/b2PointsRight"
+                android:id="@+id/b2_Points_B"
                 android:text="+2 Points"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textSize="15sp"/>
         <Button
-                android:id="@+id/b3PointsRight"
+                android:id="@+id/b3_Points_B"
                 android:text="+3 Points"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:textSize="15sp"/>
         <Button
-                android:id="@+id/b1PointsRight"
+                android:id="@+id/b1_Points_B"
                 android:text="FREE THROW"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
