@@ -4,14 +4,98 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
         tools:context="courtcounter.courtcounter.CourtCounterActivity">
-
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:orientation="vertical"
+            android:gravity="center">
+        <TextView
+                android:text="Team A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+        <TextView
+                android:text="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"/>
+        <Button
+                android:id="@+id/b2PointsLeft"
+                android:text="+2 Points"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"/>
+        <Button
+                android:id="@+id/b3PointsLeft"
+                android:text="+3 Points"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"/>
+        <Button
+                android:id="@+id/b1PointsLeft"
+                android:text="FREE THROW"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"/>
+    </LinearLayout>
     <TextView
-            android:text="Hello World!"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"/>
+    <LinearLayout
+            android:layout_weight = "1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+        <TextView
+                android:text="Team B"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"/>
+        <TextView
+                android:text="0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"/>
+        <Button
+                android:id="@+id/b2PointsRight"
+                android:text="+2 Points"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"/>
+        <Button
+                android:id="@+id/b3PointsRight"
+                android:text="+3 Points"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"/>
+        <Button
+                android:id="@+id/b1PointsRight"
+                android:text="FREE THROW"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="15sp"/>
+    </LinearLayout>
+</LinearLayout>
+    <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:onClick="resetScore"
+            android:text="Reset" />
 </RelativeLayout>
