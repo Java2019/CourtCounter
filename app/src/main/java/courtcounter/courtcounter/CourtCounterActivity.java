@@ -8,8 +8,8 @@ import android.widget.TextView;
 public class CourtCounterActivity extends AppCompatActivity
         implements View.OnClickListener{
 
-    private Integer Score_A;
-    private Integer Score_B;
+    private Integer Score_A = 0;
+    private Integer Score_B = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,7 +55,8 @@ public class CourtCounterActivity extends AppCompatActivity
             Score_A = Score_A + Score;
         }
         TextView text = (TextView)findViewById(R.id.scoreA);
-        text.setText(Score_A);
+        text.setText(String.valueOf(Score_A));
+
     }
     public void displayB(Integer Score){
         if (Score == 0 ){
@@ -64,6 +65,6 @@ public class CourtCounterActivity extends AppCompatActivity
             Score_B = Score_B + Score;
         }
         TextView text = (TextView)findViewById(R.id.scoreB);
-        text.setText(Score_B);
+        text.setText(String.valueOf(Score_B));
     }
 }
