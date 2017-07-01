@@ -21,14 +21,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
-                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#616161"
                 android:textAlignment="center"/>
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="80sp"
-                android:id="@+id/scoreA"/>
+                android:id="@+id/scoreA"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"/>
         <Button
                 android:id="@+id/b2_Points_A"
                 android:text="+2 Points"
@@ -65,7 +68,8 @@
         <TextView
                 android:text="Team B"
                 android:textSize="20sp"
-                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#616161"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAlignment="center"/>
@@ -74,7 +78,9 @@
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="80sp"
-                android:id="@+id/scoreB"/>
+                android:id="@+id/scoreB"
+                android:fontFamily="sans-serif-light"
+                android:textColor="#000000"/>
         <Button
                 android:id="@+id/b2_Points_B"
                 android:text="+2 Points"
